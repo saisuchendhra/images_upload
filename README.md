@@ -1,2 +1,2 @@
 # images_upload
-Ipload and view Images
+Upload and view Images
