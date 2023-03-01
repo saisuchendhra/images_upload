@@ -3,12 +3,13 @@ branch-defaults:
     environment: null
     group_suffix: null
   main:
-    environment: django-images-master-dev
+    environment: null
+    group_suffix: null
 global:
-  application_name: django-images-master
+  application_name: django-project
   branch: null
   default_ec2_keyname: sai-keypair
-  default_platform: Python 3.8 running on 64bit Amazon Linux 2
+  default_platform: Python 3.7
   default_region: us-west-2
   include_git_submodules: true
   instance_profile: null
