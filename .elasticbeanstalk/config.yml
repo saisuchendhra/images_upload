@@ -1,12 +1,17 @@
 branch-defaults:
   main:
     environment: django-images-master-dev
+    group_suffix: null
 environment-defaults:
   django-images-master-dev:
     branch: null
     repository: null
+  django-images-master-dev2:
+    branch: null
+    repository: null
 global:
   application_name: django-images-master
+  branch: null
   default_ec2_keyname: sai-keypair
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
   default_region: us-west-2
@@ -15,5 +20,6 @@ global:
   platform_name: null
   platform_version: null
   profile: eb-cli
+  repository: null
   sc: git
   workspace_type: Application
