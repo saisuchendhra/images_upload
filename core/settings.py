@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m10c@k!u5b!y@=n%!9dxmc4#=q)q$)tdu$6$&w#1p_y107=2c_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-images-master-dev.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1','django-images-master-dev.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
